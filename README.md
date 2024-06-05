@@ -73,7 +73,11 @@ Coming soon
 
 
 ## License
-xxx
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
+This work is licensed under a [MIT License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
 
 
 <!-- ## 📝 Citation

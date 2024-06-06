@@ -76,7 +76,7 @@ Coming soon
 
 [![CC0 license](https://img.shields.io/badge/CC0-1.0-blue.svg)](https://lbesson.mit-license.org/)
 
-This work is marked with [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1)
+This work is marked with [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 
 <!-- ## 📝 Citation

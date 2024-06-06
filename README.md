@@ -74,10 +74,9 @@ Coming soon
 
 ## License
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![CC0 license](https://img.shields.io/badge/CC0-1.0-blue.svg)](https://lbesson.mit-license.org/)
 
-This work is licensed under a [MIT License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-
+This work is marked with [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1)
 
 
 <!-- ## 📝 Citation

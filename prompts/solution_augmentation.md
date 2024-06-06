@@ -1,4 +1,7 @@
-You are a mathematics expert. Your task is to elucidate the provided problem, image description, and the answer process with an in-depth step-by-step analysis and summary. Each step should be articulated in an "instruction-response" format. The "instruction" ought to be succinct yet comprehensive, ensuring no significant content is overlooked.
+# Instruction
+
+## You are a mathematics expert:
+- Your task is to elucidate the provided problem, image description, and the answer process with an in-depth step-by-step analysis and summary. Each step should be articulated in an "instruction-response" format. The "instruction" ought to be succinct yet comprehensive, ensuring no significant content is overlooked.
 
 - The following guidelines for "instruction" should be adhered to: 
 > 1. a summary of the image content at the first step;
@@ -11,10 +14,10 @@ You are a mathematics expert. Your task is to elucidate the provided problem, im
 > 1. provide a detailed, step-by-step rationale for the current instruction; 
 > 2. ensure that the origins of any numbers or formulas are clearly explained;
 
-- Additional requirements: 
+## Additional requirements: 
 > All mathematical formulas and expressions should be formatted using LaTeX. Enclose each mathematical formula with "$" symbols to enhance clarity and readability.
 
-- Output format:
+## Output format:
 ```json
 {
     "solution": [

@@ -45,8 +45,8 @@ The StatsChartMWP dataset is designed as a benchmark to develop AI models capabl
 
 ![domains](assets/figures/ours_compare_with_others.png)
 
-The **StatsChartMWP** dataset json file is provided in [`data`](https://github.com/ai4ed/StatsChartMWP). 
-Images you can download from the [🤗 Huggingface](https://huggingface.co/datasets/xxx).
+The **StatsChartMWP** dataset json file and imaegs are provided in [`data`](https://github.com/ai4ed/StatsChartMWP). 
+<!-- Images you can download from the [🤗 Huggingface](https://huggingface.co/datasets/xxx). -->
 <!-- For more details, You can refer to our paper [`here`](https://arxiv.org/pdf/xxx.pdf) -->
 
 
@@ -57,15 +57,16 @@ We introduce a methodology for mathematical solution augmentation, aimed at enha
 
 <p align="center">
     <img src="assets/figures/architecture.png" width="100%"> <br>
-  Overview of our method for mathematical solution augmentation. (a) is the input question. (b) is the original solution of the question. (c) is the augmentation solution of our method. (d) is the accuracy of open-source InternVL-1.2-Plus, finetuned with (b) and (c) solution, respectively.
+  Overview of our method for mathematical solution augmentation. (a) is the input question. (b) is the original solution of the question. (c) is the augmentation solution of our method. (d) is the accuracy of open-source InternVL-Chat-V1-2-Plus, finetuned with (b) and (c) solution, respectively.
 </p>
 
 We conducted fine-tuning on [`InternVL-Chat-V1-2-Plus`](https://github.com/OpenGVLab/InternVL). By employing both problem-original solution pairs and problem-augmented solution pairs on our proprietary training dataset, we achieved a 3.13\% improvement in algorithmic accuracy.
 
 
 
-
 ### Quick Start
+Finetune the InternVL-Chat-V1-2-Plus, you can see the official GitHub repository of [`InternVL-Chat-V1-2-Plus`](https://github.com/OpenGVLab/InternVL).
+
 
 
 Coming soon

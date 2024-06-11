@@ -5,7 +5,7 @@
 
 ![GPT-4](https://img.shields.io/badge/Model-GPT--4-red) 
 ![GPT-4V](https://img.shields.io/badge/Model-GPT--4V-red)
-![GPT-4o](https://img.shields.io/badge/Model-GPT--4V-red)
+![GPT-4o](https://img.shields.io/badge/Model-GPT--4o-red)
 
 <!-- 🌟  This is the official repository for the paper "[StatsChartMWP: A Dataset for Evaluating Multimodal Mathematical Reasoning Abilities on Math Word Problems with Statistical Charts](https://arxiv.org/pdf/xxx.pdf)" -->
 
@@ -45,12 +45,12 @@ The StatsChartMWP dataset is designed as a benchmark to develop AI models capabl
 
 ![domains](assets/figures/ours_compare_with_others.png)
 
-The **StatsChartMWP** dataset json file and imaegs are provided in [`data`](https://github.com/ai4ed/StatsChartMWP). 
+The **StatsChartMWP** dataset json file and imaegs are provided in [`data`](https://github.com/ai4ed/StatsChartMWP/tree/main/data). 
 <!-- Images you can download from the [🤗 Huggingface](https://huggingface.co/datasets/xxx). -->
 <!-- For more details, You can refer to our paper [`here`](https://arxiv.org/pdf/xxx.pdf) -->
 
 
-## 🌟 Augmentation of Mathematical Solutions
+## 🌟 CoTAR
 
 ### Introduction
 We introduce a methodology for mathematical solution augmentation, aimed at enhancing the multi-step mathematical reasoning capabilities of LMM. We posit that comprehensive and methodical solutions are more readily comprehensible and learnable. Consequently, we have expanded the original solutions at a step-by-step level to enhance the logical clarity of the solution process. Each step in our expanded solution scheme is structured in an "instruction: response" format. The instruction serves as a guiding directive for the logical analysis or computation required in the current step, while the response provides a detailed explanation of the process undertaken in response to the instruction. Recognizing that visual data from images is often insufficiently explained in the responses, our approach necessitates the preliminary output of detailed visual information. The architecture of our method illustrated in follow:
@@ -65,11 +65,16 @@ We conducted fine-tuning on [`InternVL-Chat-V1-2-Plus`](https://github.com/OpenG
 
 
 ### Quick Start
+
+#### Finetune
 Finetune the InternVL-Chat-V1-2-Plus, you can see the official GitHub repository of [`InternVL-Chat-V1-2-Plus`](https://github.com/OpenGVLab/InternVL).
 
 
-
-Coming soon
+#### CoTAR
+the prompt of CoTAR is provided in [`prompts`](https://github.com/ai4ed/StatsChartMWP/tree/main/prompts). You can run the main code to get the CoTAR solution data.
+```shell
+python main.py
+```
 
 
 
@@ -94,4 +99,13 @@ If you find this datasets useful in your research, please consider citing this B
 
 Explore our additional research on **Vision-Language Large Models**, focusing on multi-modal LLMs and mathematical reasoning:
 
+- **[ChartQA]** [ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning](https://github.com/vis-nlp/ChartQA)
+- **[TABMWP]** [DYNAMIC PROMPT LEARNING VIA POLICY GRADIENT FOR SEMI-STRUCTURED MATHEMATICAL REASONING](https://github.com/lupantech/PromptPG)
 - **[MathVista]** [MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts](https://github.com/lupantech/MathVista)
+- **[MathVerse]** [MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?](https://github.com/ZrrSkywalker/MathVerse)
+- **[MATH-Vision]** [Measuring Multimodal Mathematical Reasoning with the MATH-Vision Dataset](https://github.com/mathvision-cuhk/MathVision)
+- **[OlympiadBench]** [OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems](https://github.com/OpenBMB/OlympiadBench)
+- **[InternVL]** [InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://github.com/OpenGVLab/InternVL)
+- **[LLaVA]** [LLaVA: Large Language and Vision Assistant](https://github.com/haotian-liu/LLaVA)
+
+

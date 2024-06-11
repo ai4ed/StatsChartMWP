@@ -76,12 +76,12 @@ if __name__ == "__main__":
 
     # Get image description
     system_prompt = "you are a helpful visual assistant"
-    image_file = "xxx"  # local path
+    image_file = "./data/images/2557.png"  # local path
     question_prompt = "Please provide a summary of the image and generate underlying data table for the chart"
     image_description = generate_from_gpt4o(system_prompt, question_prompt, image_file)
 
 
-    CoTAR_system_prompt_dir = "/mnt/cfs/zhudan/a800_bak/zhudan/codes/StatsChartMWP/prompts/solution_augmentation.md"
+    CoTAR_system_prompt_dir = "./prompts/solution_augmentation.md"
     CoTAR_system_prompt = load_prompts(CoTAR_system_prompt_dir)
     
     question = "下面是一幅扇形统计图，请根据图中信息回答下列问题。\n白菜占总数的____%"

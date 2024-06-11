@@ -45,7 +45,7 @@ The StatsChartMWP dataset is designed as a benchmark to develop AI models capabl
 
 ![domains](assets/figures/ours_compare_with_others.png)
 
-The **StatsChartMWP** dataset json file and imaegs are provided in [`data`](https://github.com/ai4ed/StatsChartMWP/tree/main/data). 
+The **StatsChartMWP** dataset json file and images are provided in [`data`](https://github.com/ai4ed/StatsChartMWP/tree/main/data). 
 <!-- Images you can download from the [🤗 Huggingface](https://huggingface.co/datasets/xxx). -->
 <!-- For more details, You can refer to our paper [`here`](https://arxiv.org/pdf/xxx.pdf) -->
 
@@ -53,7 +53,7 @@ The **StatsChartMWP** dataset json file and imaegs are provided in [`data`](http
 ## 🌟 CoTAR
 
 ### Introduction
-We introduce a methodology for mathematical solution augmentation, aimed at enhancing the multi-step mathematical reasoning capabilities of LMM. We posit that comprehensive and methodical solutions are more readily comprehensible and learnable. Consequently, we have expanded the original solutions at a step-by-step level to enhance the logical clarity of the solution process. Each step in our expanded solution scheme is structured in an "instruction: response" format. The instruction serves as a guiding directive for the logical analysis or computation required in the current step, while the response provides a detailed explanation of the process undertaken in response to the instruction. Recognizing that visual data from images is often insufficiently explained in the responses, our approach necessitates the preliminary output of detailed visual information. The architecture of our method illustrated in follow:
+We introduce CoTAR, a data augmentation strategy that utilizes CoT augmented reasoning to alleviate the cross-modal alignment between representations of visual mediums of artificial figures and technical language and equations. Specifically, instead of directly using the concise textual solutions of the MWPs, we use the state-of-the-art LLM, so convert them into detailed step-by-step explanations in a CoT-alike format to improve their logical clarity. Furthermore, each step is made up of a short step summary that explicitly states the purpose of this step and a concrete reasoning response. The step summary serves as a guiding directive for the logical analysis or computation required in the current step, while the concrete reasoning response provides a detailed explanation of the process undertaken in response to the step summary. The architecture of our method illustrated in follow:
 
 <p align="center">
     <img src="assets/figures/architecture.png" width="100%"> <br>

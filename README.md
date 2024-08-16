@@ -45,7 +45,7 @@ The StatsChartMWP dataset is designed as a benchmark to develop AI models capabl
 
 ![domains](assets/figures/ours_compare_with_others.png)
 
-The **StatsChartMWP** dataset json file and images are provided in [`data`](https://github.com/ai4ed/StatsChartMWP/tree/main/data). 
+The **StatsChartMWP** dataset json file and images are provided in [`data`]. 
 <!-- Images you can download from the [🤗 Huggingface](https://huggingface.co/datasets/xxx). -->
 <!-- For more details, You can refer to our paper [`here`](https://arxiv.org/pdf/xxx.pdf) -->
 

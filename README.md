@@ -15,33 +15,29 @@ This is the official repository for the paper "StatsChartMWP: A Dataset for Eval
  
 
 
-
 ## 🏆 Leaderboard
 
 The leaderboard is continuously being updated. If you have any new results to contribute, please feel free to reach out to us.
 
 | **#** | **Model** | **Method**| **Date** | **ALL** | **Bar** | **Hist** | **Line** | **Line-f** | **Scatter** | **D-axis** | **P-bar** | **Pie** | **Table** | **Comp** | **Radar** |
 | ----------- | ---------------------- | ------------------------ | -------------- | ------------- | ------------- | -------------- | --------------- | --------------- | -------------- | ------------- | --------------- | --------------- | ------------- | --------------- | -------------- |
-| 1 | GPT-4o | LMM | 2024-06-04 | 55.62 | 65.53 | 23.87 | 58.08 | 43.51 | 43.12 | 51.56 | 36.36 | 71.39 | 79.69 | 49.94 | 41.67 | 
-| 2 | GPT4(GPT-4o) | LLM | 2024-06-04 | 46.95 | 59.98 | 13.30 | 52.72 | 35.98 | 27.50 | 45.31 | 27.27 | 59.19 | 71.85 | 38.82 | 20.83 | 
-| 3 | GPT-4V | LMM | 2024-06-04 | 34.28 | 38.57 | 12.10 | 40.48 | 28.87 | 30.00 | 39.06 | 18.18 | 38.25 | 55.67 | 27.89 | 33.33 |
-| 4 | GPT4(GPT-4V) | LLM | 2024-06-04 | 31.47 | 38.11 | 8.61 | 39.12 | 22.18 | 20.62 | 35.94 | 4.55 | 34.71 | 52.46 | 24.36 | 20.83 | 
-| 5 | Qwen-VL-MAX | LMM | 2024-06-04 | 30.24 | 37.40 | 10.19 | 29.51 | 19.25 | 20.00 | 29.69 | 18.18 | 37.86 | 54.74 | 16.91 | 33.33 | 
-| 6 | InternVL-1.5 | LMM | 2024-06-04 | 23.26 | 34.69 | 6.98 | 29.42 | 15.48 | 21.88| 35.94| 4.55 | 23.89 | 31.36 | 15.89 | 16.67| 
-| 7 | InterVL-Chat-V1-2-Plus | LMM | 2024-06-04 | 22.16 | 31.46 | 7.19 | 27.13 | 14.23 | 15 | 28.12 | 9.09 | 24.19 | 31.43 | 15.44 | 20.83 | 
-| 8 | Qwen-VL-PLUS | LMM | 2024-06-04 | 19.68 | 24.85 | 7.47 | 22.28 | 15.06 | 13.12 | 31.25 | 9.09 | 19.27 | 33.14 | 13.01 | 12.50 | 
-| 9 | InternLM_2_VL_7B | LMM | 2024-06-04 | 17.13 | 24.36 | 5.78 | 23.81 | 13.81 | 16.88 | 25 | 18.18 | 19.17 | 19.81 | 12 | 16.67 | 
-| 10 | LLaVA-NeXT-34B | LMM | 2024-06-04 | 15.67 | 20.96 | 5.45 | 23.13 | 13.39 | 20 | 25 | 4.55 | 14.06 | 19.24 | 12.44 | 20.83 | 
-| 11 | DeepSeek-VL-7B-Chat | LMM | 2024-06-04 | 13.2 |16.06 |4.63 |	21.43 |11.72 |12.5 |28.12 |	4.55 |	14.16 |15.47 |9.78 |	8.33 |
-| 12 | Qwen-VL | LMM | 2024-06-04 | 10.97 | 13.25 | 5.01 | 14.63 | 11.3 | 11.25 | 28.12 | 9.09 | 9.83 | 13.61 | 9.67 | 20.83 | 
-| 13 | HPT | LMM | 2024-06-04 | 10.10 | 9.91 | 5.07 | 17.77 | 9.62 | 10.62 | 26.56 | 9.09 | 7.18 | 10.62 | 11.56 | 29.17 | 
-
-
+| 1 | DeepSeek-VL-7B | LMM | 2024-11-01 | 13.20 | 16.06 | 4.63 | 21.43 | 11.72 | 12.50 | 28.12 | 4.55 | 14.16 | 15.47 | 9.78 | 8.33 |
+| 2 | LLaVA-NeXT-34B | LMM | 2024-11-01 | 15.67 | 20.96 | 5.45 | 23.13 | 13.39 | 20.00 | 25.00 | 4.55 | 14.06 | 19.24 | 12.44 | 20.83 | 
+| 3 | Cambrian-34B | LMM | 2024-11-01 | 18.15 | 22.03 | 8.77 | 27.89 | 14.23 | 18.75 | 46.88 | 22.73 | 16.52 | 20.24 | 14.02 | 41.67 |
+| 4 | IXC-2.5-7B | LMM | 2024-11-01 | 22.55 | 31.10 | 7.36 | 29.25 | 17.99 | 18.75 | 43.75 | 18.18 | 24.88 | 29.72 | 15.02 | 41.67 | 
+| 5 | GPT4 (GPT-4V) | LLM | 2024-11-01 | 31.47 | 38.11 | 8.61 | 39.12 | 22.18 | 20.62 | 35.94 | 4.55 | 34.71 | 52.46 | 24.36 | 20.83 | 
+| 6 | LLaVA-OV-72B | LMM | 2024-11-01 | 32.39 | 38.33 | 15.26 | 39.80 | 30.54 | 35.62 | 42.19 | 31.82 | 34.32 | 45.97 | 22.91 | 16.67 |
+| 7 | GPT-4V | LMM | 2024-11-01 | 34.28 | 38.57 | 12.10 | 40.48 | 28.87 | 30.00 | 39.06 | 18.18 | 38.25 | 55.67 | 27.89 | 33.33  | 
+| 8 | Qwen2-VL-7B | LMM | 2024-11-01 | 37.46 | 45.67 | 20.16 | 39.29 | 30.96 | 31.25 | 65.62 | 36.36 | 44.54 | 51.25 | 25.70 | 62.50 | 
+| 9 | InternVL2-Llama3-76B | LMM | 2024-11-01 | 45.02 | 58.81 | 24.58 | 50.43 | 35.98 | 43.12 | 42.19 | 13.64 | 48.08 | 57.38 | 35.37 | 29.17 | 
+| 10 | GPT4 (GPT-4o) | LLM | 2024-11-01 | 46.95 | 59.98 | 13.30 | 52.72 | 35.98 | 27.50 | 45.31 | 27.27 | 59.19 | 71.85 | 38.82 | 20.83 | 
+| 11 | GPT-4o	| LMM | 2024-11-01 | 57.05 | 66.51 | 26.38 | 58.76 | 42.26 | 45.62 | 68.75 | 54.55 | 72.57 | 81.54 | 49.50 | 45.83 | 
+| 12 | Qwen2-VL-72B | LMM | 2024-11-01 | 59.33 | 69.91 | 39.29 | 60.03 | 46.44 | 43.75 | 62.50 | 59.09 | 65.78 | 77.12 | 50.39 | 62.50 | 
 
 
 ## 📐 StatsChartMWP Dataset
 
-The StatsChartMWP dataset is designed as a benchmark to develop AI models capable of understanding multimodal information present in math word problems with statistical charts. Our dataset incorporates a variety of chart forms, presenting a broad visual spectrum and mathematical knowledge competencies and each item originates from real-world educational contexts, encompassing challenges formulated by mathematics educators, genuine student inquiries, and historical examination questions. The StatsChartMWP dataset encompasses 8,514 unique MWPs with statistical charts. The StatsChartMWP dataset contains 11 different types of statistical charts, including bar/line/line-function/dual-axis/pie/composite/radar/histograms/scatter/percentage-bar/tables. A comparative example between our dataset and ChartQA and FigureQA is shown below.
+The StatsChartMWP dataset is designed as a benchmark to develop AI models capable of understanding multimodal information present in math word problems with statistical charts. Our dataset incorporates a variety of chart forms, presenting a broad visual spectrum and mathematical knowledge competencies and each item originates from real-world educational contexts, encompassing challenges formulated by mathematics educators, genuine student inquiries, and historical examination questions. The StatsChartMWP dataset encompasses 8,514 unique MWPs with statistical charts. The StatsChartMWP dataset contains 11 different types of statistical charts, including bar, line, line-function, dual-axis, pie, composite, radar, histograms, scatter, percentage-bar, tables. A comparative example between our dataset and ChartQA and FigureQA is shown below. R-Steps means the average reasoning steps of the dataset.
 
 ![domains](assets/figures/ours_compare_with_others.png)
 
@@ -57,17 +53,17 @@ We introduce CoTAR, a data augmentation strategy that utilizes CoT augmented rea
 
 <p align="center">
     <img src="assets/figures/architecture.png" width="100%"> <br>
-  Overview of our method for mathematical solution augmentation. (a) is the input question. (b) is the original solution of the question. (c) is the augmentation solution of our method. (d) is the accuracy of open-source InternVL-Chat-V1-2-Plus, finetuned with (b) and (c) solution, respectively.
+  An illustration of CoTAR. (a) the original MWP with statistical chart. (b) the corresponding original solution. (c) the solution of CoTAR. The bold words are the step summaries and the following sentences are reasoning responses.
 </p>
 
-We conducted fine-tuning on [`InternVL-Chat-V1-2-Plus`](https://github.com/OpenGVLab/InternVL). By employing both problem-original solution pairs and problem-augmented solution pairs on our proprietary training dataset, we achieved a 3.13\% improvement in algorithmic accuracy.
+We conducted fine-tuning on [`Qwen2-VL-7B`](https://github.com/QwenLM/Qwen2-VL). By employing both problem-original solution pairs and problem-augmented solution pairs on our proprietary training dataset, we achieved a 8.76\% improvement in algorithmic accuracy.
 
 
 
 ### Quick Start
 
 #### Finetune
-Finetune the InternVL-Chat-V1-2-Plus, you can see the official GitHub repository of [`InternVL-Chat-V1-2-Plus`](https://github.com/OpenGVLab/InternVL).
+Finetune the Qwen2-VL-7B, you can see the official GitHub repository of [`Qwen2-VL-7B`](https://github.com/QwenLM/Qwen2-VL).
 
 
 #### CoTAR
@@ -107,5 +103,4 @@ Explore our additional research on **Vision-Language Large Models**, focusing on
 - **[OlympiadBench]** [OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems](https://github.com/OpenBMB/OlympiadBench)
 - **[InternVL]** [InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://github.com/OpenGVLab/InternVL)
 - **[LLaVA]** [LLaVA: Large Language and Vision Assistant](https://github.com/haotian-liu/LLaVA)
-
 
